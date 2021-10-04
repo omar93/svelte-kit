@@ -14,16 +14,13 @@
 
 <style>
     ul {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        list-style-type:none;
-        margin: 0px;
-        padding:0px;
-    }
-
-    li {
-        margin-top: 30px;
-        margin-left: 10px;
+        justify-content: space-between;
+        gap: 20px;
     }
 </style>

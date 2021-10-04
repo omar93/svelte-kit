@@ -8,7 +8,7 @@
 
 <style>
     #poster {
-        width: 200px;
+        width: 180px;
     }
 
     @media (max-width: 767px) {
