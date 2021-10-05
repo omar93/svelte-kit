@@ -1,13 +1,12 @@
 <script>
     import Character from './characterItem.svelte'
-    export let characters = []
+    export let characters
 </script>
-<p>characerList</p>
 <ul>
     {#each characters as character}
-    <li>
-        <Character {character}/>
-    </li>
+        <li>
+            <Character {character}/>
+        </li>
     {/each}
 </ul>
 
@@ -22,3 +21,5 @@
         gap: 20px;
     }
 </style>
+
+
