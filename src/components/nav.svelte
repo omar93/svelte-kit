@@ -3,6 +3,7 @@
     <a href="/movies">Movies</a>
     <a href="/characters">Characters</a>
     <a href="/articles">Articles</a>
+    <a href="/map">Current map</a>
 </nav>
 
 <style>
