@@ -7,4 +7,7 @@
 </div>
 
 <style>
+    div {
+        height: 200px;
+    }
 </style>

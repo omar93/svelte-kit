@@ -23,24 +23,11 @@
 <div>
     {#await getData()}
     <ul>
-        <li>
-           <SkeletonCharacterItem/> 
-        </li>
-        <li>
-            <SkeletonCharacterItem/> 
-         </li>
-         <li>
-            <SkeletonCharacterItem/> 
-         </li>
-         <li>
-            <SkeletonCharacterItem/> 
-         </li>
-         <li>
-            <SkeletonCharacterItem/> 
-         </li>
-         <li>
-            <SkeletonCharacterItem/> 
-         </li>
+        {#each Array(6) as _, i}
+            <li>
+                <SkeletonCharacterItem/> 
+            </li>
+        {/each}
     </ul>
     {:then characters} 
         <CharacterList {characters}/>

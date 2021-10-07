@@ -11,5 +11,6 @@
         display: flex;
         justify-content: space-between;
         font-size: 2em;
+        font-family: sans-serif;
     }
 </style>

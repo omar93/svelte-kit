@@ -16,10 +16,10 @@
     #layout-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         width: 1000px;
         margin: auto;
         padding: 10px;
+        position: sticky;
     }
 
     #slot-container {
